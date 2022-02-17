@@ -80,6 +80,19 @@ $db=[
     <title>Document</title>
 </head>
 <body>
-    
+    <p></p>
+<?php
+    foreach ($db as $disc) {
+        echo 
+        "<div>
+            <img src=\"\" alt=\"\">
+            <h4>" . $disc["title"] . "</h4>
+            <p>" . $disc["author"] . "</p>
+            <p>" . $disc["year"] . "</p>
+        </div>";
+    }
+?>
+
+
 </body>
 </html>
