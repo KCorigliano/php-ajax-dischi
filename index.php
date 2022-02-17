@@ -76,12 +76,14 @@ $db=[
 </head>
 <body>
 
+<header></header>
+
 <div class="container">
     <?php
         foreach ($db as $disc) {
             echo 
             "<div class=\"disc-container\">
-                <img src=" . $disc["img"] . " alt=\"\">
+                <div class=\"img-container\"><img src=" . $disc["img"] . " alt=\"\"></div>
                 <h4>" . $disc["title"] . "</h4>
                 <p>" . $disc["author"] . "</p>
                 <p>" . $disc["year"] . "</p>
