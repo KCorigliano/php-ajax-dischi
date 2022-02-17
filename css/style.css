@@ -15,14 +15,19 @@ body{
     margin: 0 auto;
 }
 
+img{
+    width: 100%;
+}
+
 h4{
     color: white;
     text-transform: uppercase;
 }
 
-.disc-container p:first-child{
+.disc-container > p{
     margin: 15px 0;
     padding: auto;
+    color: grey;
 }
 
 .disc-container{
