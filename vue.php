@@ -12,7 +12,8 @@
 <body>
 
     <div id="app">
-        <header></header>
+        <header>
+        </header>
         <div class="container">
             <div class="disc-container" v-for="disc in discs">
                 <div class="img-container"><img :src="disc.img" alt=""></div>
